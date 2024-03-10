@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    min-height: 100vh;
+    background-image: url("sky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.weather-box
+{
+    width:90%;
+    max-width:470px;
+    background-image: linear-gradient(rgba(46, 110, 122, 0.6),rgba(28, 100, 112, 0.6)),url("sky.jpg");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    opacity: 1;
+    box-shadow: 10px 10px 20px rgb(198, 233, 240); 
+    border-radius: 20px;
+    text-align:center;
+    margin:100px auto 0;
+    padding: 40px 35px;
+}
+.search
+{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background:#a2d4f3;
+    color:white;
+    height: 60px;
+    border-radius: 10px;
+    margin:20px;
+    flex:1;
+    font-size:20px;
+    
+    padding-left:10px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background:#a2d4f3;
+    font-size:20px;
+    color:white;
+    height: 60px;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.weather h1,h2
+{
+    color: white;
+}
+.details
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    margin-top: 50px;
+}
+.details p
+{
+    color:white;
+    font-weight: bold;
+}
+.col
+{
+    display:flex;
+    align-items:center;
+}
+.col img
+{
+    width:40px;
+    margin-right: 10px;
+}
+.error
+{
+    text-align:left;
+    margin-left:10px;
+    margin-top:10px;
+    color:white;
+    font-size:20px;
+    display:none;
+}
